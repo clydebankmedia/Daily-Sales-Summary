@@ -97,9 +97,9 @@ ORDER BY daily_revenue DESC;
 <summary>**Solution**</summary>
     
 ```sql
-    SELECT purchase_date, price_paid
-    FROM tickets
-    LIMIT 5;
+SELECT purchase_date, price_paid
+FROM tickets
+LIMIT 5;
 ```
 </details>
 <details>    
