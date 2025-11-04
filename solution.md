@@ -26,6 +26,7 @@ FROM tickets
 GROUP BY purchase_date
 ORDER BY total_tickets DESC;
 ```
+
 </details>
 <details>
     
@@ -95,11 +96,11 @@ ORDER BY daily_revenue DESC;
 <details>
 <summary>**Solution**</summary>
     
-    ```sql
+```sql
     SELECT purchase_date, price_paid
     FROM tickets
     LIMIT 5;
-    ```
+```
 </details>
 <details>    
 <summary>**Solution**</summary>
