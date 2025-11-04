@@ -53,7 +53,7 @@ GROUP BY purchase_date;
 ```
 </details>
 <details>
-<summary>Step 5 Solution - Put the results in order<summary>
+<summary>Step 5 Solution - Put the results in order</summary>
     
 ```sql
 SELECT 
